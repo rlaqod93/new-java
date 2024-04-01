@@ -11,6 +11,7 @@ public class VDATest {
         int b = a;
         int c = b * 10;
         System.out.println("c = " + c);
+
         //q. sum이라는 변수에 1부터 5까지의 수를 누적해서 출력 하시요
         int sum = 0;
         sum = sum + 1; // 0 + 1
@@ -19,6 +20,18 @@ public class VDATest {
         sum = sum + 4; // 0 + 4
         sum = sum + 5; // 0 + 5
         System.out.println("sum = " + sum); // 15
+
+        //q. x = 10 , y = 20 을 저장하고 변수의 값을 서로 교환하여 출력하세요.
+        int x = 10;
+        int y = 20;
+        System.out.println("x = " + x + " y = " + y);
+
+        //x ,y 교환
+        int tmp = 0;
+        tmp = y;
+        y = x;
+        x = tmp;
+        System.out.println("x = " + x + " y = " + y);
 
     }
 }

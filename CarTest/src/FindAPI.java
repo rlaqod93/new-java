@@ -10,6 +10,7 @@ public class FindAPI {
         String s;
         s = "APPLE";
         System.out.println("s = " + s);
+        System.out.println(s.length());//s 안에 있는 문자열 길이를 알려줌
 
     }
 }

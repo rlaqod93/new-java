@@ -17,12 +17,22 @@ public class CharTest2 {
         System.out.println("sum = " + sum);
 
         //'1'+'2'+'3'+'4'+'5' = 15 가 나오도록 프로그래밍 하시요.
-        int q = '1' - '0';
-        int w = '2';
+        /*int q = '1' - '0';
+        int w = '2' - 48;
         int e = '3';
         int z = '4';
         int t = '5';
-        int sun = q + (w-'0') + (e-'0') + (z-'0') + (t-'0');
+        int sun = q + w + (e-'0') + (z-'0') + (t-'0'); */
+
+        //위 아래 둘다 결과 값은 같다
+        
+        // '1'+'2'+'3'+'4'+'5' = 15 가 나오도록 프로그래밍 하시요.
+        int sun = 0;
+        sun = sun + ('1' - '0');
+        sun = sun + ('2' - '0');
+        sun = sun + ('3' - '0');
+        sun = sun + ('4' - '0');
+        sun = sun + ('5' - '0');
         System.out.println("sun = " + sun);
 
     }

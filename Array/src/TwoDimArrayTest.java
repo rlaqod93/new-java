@@ -17,6 +17,6 @@ public class TwoDimArrayTest {
         //a[0] = 10	10	10	10
         System.out.println("a[0] = " + a[1][0] + "\t" + a[1][1] + "\t" + a[1][2] + "\t" + a[1][3] + "\t" );
         //a[0] = 10	10	10	10
-        
+
     }
 }

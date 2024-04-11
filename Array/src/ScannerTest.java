@@ -13,7 +13,7 @@ public class ScannerTest {
 
         System.out.print("문자를 입력하세요 : ");//"A" , "ABC"
         String str = scan.next();
-        System.out.println("str = " + str);//공백을 치면 공백전만 읽어드림
+        System.out.println("str = " + str);//공백을 치면 공백전만 읽음
 
         scan.nextLine();//버퍼 비우기(스트림 비우기)
 
